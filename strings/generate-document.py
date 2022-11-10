@@ -14,7 +14,7 @@ def generateDocument(characters, document):
 
     #for loop iterates through document
     #if statement to determine rather the character is present in the table or not
-    #if the character isnt present == false
+    #if the character isn't present == false
     #if there are 4 values of the character in the document but only 3 in the table == false
     for idx in document:
         if idx not in charCounts or charCounts[idx] == 0:
