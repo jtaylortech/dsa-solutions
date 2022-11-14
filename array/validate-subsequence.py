@@ -3,7 +3,11 @@ def isValidSubsequence(array, sequence):
     seqIdx = 0
 
     # traverse through both arrays to look for subsequent matches
-    # if statement to iterate through the arrays only moving forward if the two values match
+        # we will use the while loop to check if the array pointer is less than the length of the array
+    # if the two values match, we will increment both pointers
+    # otherwise, we will only increment the array pointer
+    # if the sequence pointer reaches the end of the sequence array, we will return true
+    # otherwise, we will return false
     while arrIdx < len(array) and seqIdx < len(sequence):
         if array[arrIdx] == sequence[seqIdx]:
             seqIdx += 1
