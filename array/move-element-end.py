@@ -5,10 +5,10 @@ def moveElementToEnd(array, toMove):
 
     # will run until h pointer passes k pointer
     # will use the if statement to check if the value at the h pointer is equal to the value we want to move
-    # if it is, we will use the while loop to check if the value at the k pointer is equal to the value we want to move
+    # if it is, use the while loop to check if the value at the k pointer is equal to the value we want to move
     # if it is, we will decrement the k pointer
     # otherwise, we will swap the values at the h and k pointers
-    # we will also increment the h pointer
+    # also increment the h pointer
     while h < k:
         while h < k and array[k] == toMove: 
             k -= 1
