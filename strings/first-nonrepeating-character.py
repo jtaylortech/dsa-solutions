@@ -1,9 +1,13 @@
 def firstNonRepeatingCharacter(string):
+    # for loop to iterate through the string and update the dictionary
+    # if the character is not in the dictionary then add it to the dictionary
+    # second for loop to iterate through the string and return the first character that has a frequency of 1
+    # if no character has a frequency of 1 then return -1
     for idx in range(len(string)):
         duplicate = False
         for idx2 in range(len(string)):
-            #if the two current characters are the same, but idx is at 2 and idx2 is at 3,
-                #then that means the character at idx is equal to the character at idx2
+            # if the character is not the same as the character at the current index then check if the character is the same as the character at the current index
+            # if the character is the same as the character at the current index then set duplicate to True and break out of the for loop   
             if string[idx] == string[idx2] and idx != idx2:
                 duplicate = True
 
