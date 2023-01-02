@@ -1,3 +1,6 @@
+# O(nlog(n) + mlog(m)) time | O(1) space - where n is the length of the first array and m is the length of the second array
+# this is the time complexity because we are sorting the two arrays and we are iterating through both arrays
+# this is the space complexity because we are not using any additional space
 def smallestDifference(arrayOne, arrayTwo):
     arrayOne.sort()
     arrayTwo.sort()
