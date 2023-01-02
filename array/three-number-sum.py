@@ -1,3 +1,6 @@
+# O(n^2) time | O(n) space - where n is the length of the input array 
+# this is the time complexity because we are using a nested for loop and a while loop to iterate through the array
+# this is the space complexity because we are creating a new array to store the triplets
 def threeNumberSum(array, targetSum):
     # sort the array and create a result array
     array.sort()
