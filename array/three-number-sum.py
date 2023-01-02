@@ -7,7 +7,7 @@ def threeNumberSum(array, targetSum):
     triplets = []
 
     # for loop to iterate through the array
-    # we will use two pointers to find the sum
+    # we will use two pointers, left and right, in addition to the current number idx to find the sum
     # idx will start at i0, L will begin at i1, R is at iLEN-1
     for idx in range(len(array) - 2): 
         left = idx + 1
