@@ -17,5 +17,6 @@ def moveElementToEnd(array, toMove):
             k -= 1
         if array[h] == toMove:
             array[h], array[k] = array[k], array[h]
+        h += 1
     
     return array
