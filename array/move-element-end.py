@@ -1,3 +1,6 @@
+# O(n) time | O(1) space - where n is the length of the input array
+# this is the time complexity because we are using a while loop to iterate through the array once
+# this is the space complexity because we are not creating any new data structures
 def moveElementToEnd(array, toMove):
     # establish two pointers, one at the beginning and one at the end
     h = 0
