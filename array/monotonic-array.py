@@ -1,3 +1,5 @@
+# O(n) time | O(1) space - where n is the length of the array
+# this is the time and space complexity if we are not allowed to use the built-in sort method
 def isMonotonic(array):
     # created a variable to keep track of the direction
     isNonIncreasing = True
