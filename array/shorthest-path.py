@@ -9,6 +9,10 @@
 # we use an if statement to check if the current position is the destination
 # if it is, we return the current answer
 # we use an if statement to check if the current position is valid and if the current position and the number of obstacles that can be removed has not been visited
+from ast import List
+from collections import deque
+
+
 class Solution:
     def shortestPath(self, grid: List[List[int]], k: int) -> int:
         m, n = len(grid), len(grid[0])
