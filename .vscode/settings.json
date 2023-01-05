@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
         "Encryptor",
-        "freqs"
+        "freqs",
+        "popleft",
+        "Subarray",
+        "subarrays"
     ]
 }
