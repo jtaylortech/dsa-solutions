@@ -5,6 +5,8 @@ class BST:
         self.left = left
         self.right = right
 
+# if statement to check if nodeTwo is a descendant of nodeOne and another if statement to check if nodeThree is a descendant of nodeTwo
+# if both of these statements are true, then return True
 def validateThreeNodes(nodeOne, nodeTwo, nodeThree):
     if isDescendant(nodeTwo, nodeOne):
         return isDescendant(nodeThree, nodeTwo)
