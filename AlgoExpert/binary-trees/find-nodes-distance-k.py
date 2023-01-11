@@ -5,6 +5,7 @@ class BinaryTree:
         self.left = left
         self.right = right
 
+# findNodesDistanceK takes in a binary tree, a target node, and an integer k and returns a list of all the nodes that are at a distance k from the target node
 def findNodesDistanceK(tree, target, k):
     nodesDistK = []
     findDistFromNode(tree, target, k, nodesDistK)
